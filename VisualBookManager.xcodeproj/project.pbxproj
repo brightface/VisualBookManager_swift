@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568E6688232B5307002A168E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E6687232B5307002A168E /* AppDelegate.swift */; };
+		568E668A232B5307002A168E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E6689232B5307002A168E /* ViewController.swift */; };
+		568E668D232B5307002A168E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E668B232B5307002A168E /* Main.storyboard */; };
+		568E668F232B530B002A168E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568E668E232B530B002A168E /* Assets.xcassets */; };
+		568E6692232B530B002A168E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E6690232B530B002A168E /* LaunchScreen.storyboard */; };
+		568E669D232B530B002A168E /* VisualBookManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E669C232B530B002A168E /* VisualBookManagerTests.swift */; };
+		568E66A8232B530B002A168E /* VisualBookManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66A7232B530B002A168E /* VisualBookManagerUITests.swift */; };
+		568E66B7232B607E002A168E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66B5232B607D002A168E /* Books.swift */; };
+		568E66BA232B8319002A168E /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66B9232B8319002A168E /* BookManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568E6699232B530B002A168E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568E667C232B5307002A168E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568E6683232B5307002A168E;
+			remoteInfo = VisualBookManager;
+		};
+		568E66A4232B530B002A168E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568E667C232B5307002A168E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568E6683232B5307002A168E;
+			remoteInfo = VisualBookManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		568E6684232B5307002A168E /* VisualBookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E6687232B5307002A168E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		568E6689232B5307002A168E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		568E668C232B5307002A168E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568E668E232B530B002A168E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568E6691232B530B002A168E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568E6693232B530B002A168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568E6698232B530B002A168E /* VisualBookManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualBookManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E669C232B530B002A168E /* VisualBookManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBookManagerTests.swift; sourceTree = "<group>"; };
+		568E669E232B530B002A168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568E66A3232B530B002A168E /* VisualBookManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualBookManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E66A7232B530B002A168E /* VisualBookManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBookManagerUITests.swift; sourceTree = "<group>"; };
+		568E66A9232B530B002A168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568E66B5232B607D002A168E /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Books.swift; path = ../../BookManager/BookManager/Books.swift; sourceTree = "<group>"; };
+		568E66B9232B8319002A168E /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568E6681232B5307002A168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E6695232B530B002A168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E66A0232B530B002A168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568E667B232B5307002A168E = {
+			isa = PBXGroup;
+			children = (
+				568E6686232B5307002A168E /* VisualBookManager */,
+				568E669B232B530B002A168E /* VisualBookManagerTests */,
+				568E66A6232B530B002A168E /* VisualBookManagerUITests */,
+				568E6685232B5307002A168E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568E6685232B5307002A168E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568E6684232B5307002A168E /* VisualBookManager.app */,
+				568E6698232B530B002A168E /* VisualBookManagerTests.xctest */,
+				568E66A3232B530B002A168E /* VisualBookManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568E6686232B5307002A168E /* VisualBookManager */ = {
+			isa = PBXGroup;
+			children = (
+				568E6687232B5307002A168E /* AppDelegate.swift */,
+				568E6689232B5307002A168E /* ViewController.swift */,
+				568E668B232B5307002A168E /* Main.storyboard */,
+				568E66B9232B8319002A168E /* BookManager.swift */,
+				568E66B5232B607D002A168E /* Books.swift */,
+				568E668E232B530B002A168E /* Assets.xcassets */,
+				568E6690232B530B002A168E /* LaunchScreen.storyboard */,
+				568E6693232B530B002A168E /* Info.plist */,
+			);
+			path = VisualBookManager;
+			sourceTree = "<group>";
+		};
+		568E669B232B530B002A168E /* VisualBookManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				568E669C232B530B002A168E /* VisualBookManagerTests.swift */,
+				568E669E232B530B002A168E /* Info.plist */,
+			);
+			path = VisualBookManagerTests;
+			sourceTree = "<group>";
+		};
+		568E66A6232B530B002A168E /* VisualBookManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				568E66A7232B530B002A168E /* VisualBookManagerUITests.swift */,
+				568E66A9232B530B002A168E /* Info.plist */,
+			);
+			path = VisualBookManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568E6683232B5307002A168E /* VisualBookManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E66AC232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManager" */;
+			buildPhases = (
+				568E6680232B5307002A168E /* Sources */,
+				568E6681232B5307002A168E /* Frameworks */,
+				568E6682232B5307002A168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualBookManager;
+			productName = VisualBookManager;
+			productReference = 568E6684232B5307002A168E /* VisualBookManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568E6697232B530B002A168E /* VisualBookManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E66AF232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManagerTests" */;
+			buildPhases = (
+				568E6694232B530B002A168E /* Sources */,
+				568E6695232B530B002A168E /* Frameworks */,
+				568E6696232B530B002A168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E669A232B530B002A168E /* PBXTargetDependency */,
+			);
+			name = VisualBookManagerTests;
+			productName = VisualBookManagerTests;
+			productReference = 568E6698232B530B002A168E /* VisualBookManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		568E66A2232B530B002A168E /* VisualBookManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E66B2232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManagerUITests" */;
+			buildPhases = (
+				568E669F232B530B002A168E /* Sources */,
+				568E66A0232B530B002A168E /* Frameworks */,
+				568E66A1232B530B002A168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E66A5232B530B002A168E /* PBXTargetDependency */,
+			);
+			name = VisualBookManagerUITests;
+			productName = VisualBookManagerUITests;
+			productReference = 568E66A3232B530B002A168E /* VisualBookManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568E667C232B5307002A168E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = brightface;
+				TargetAttributes = {
+					568E6683232B5307002A168E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					568E6697232B530B002A168E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 568E6683232B5307002A168E;
+					};
+					568E66A2232B530B002A168E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 568E6683232B5307002A168E;
+					};
+				};
+			};
+			buildConfigurationList = 568E667F232B5307002A168E /* Build configuration list for PBXProject "VisualBookManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568E667B232B5307002A168E;
+			productRefGroup = 568E6685232B5307002A168E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568E6683232B5307002A168E /* VisualBookManager */,
+				568E6697232B530B002A168E /* VisualBookManagerTests */,
+				568E66A2232B530B002A168E /* VisualBookManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568E6682232B5307002A168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E6692232B530B002A168E /* LaunchScreen.storyboard in Resources */,
+				568E668F232B530B002A168E /* Assets.xcassets in Resources */,
+				568E668D232B5307002A168E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E6696232B530B002A168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E66A1232B530B002A168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568E6680232B5307002A168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E66B7232B607E002A168E /* Books.swift in Sources */,
+				568E668A232B5307002A168E /* ViewController.swift in Sources */,
+				568E66BA232B8319002A168E /* BookManager.swift in Sources */,
+				568E6688232B5307002A168E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E6694232B530B002A168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E669D232B530B002A168E /* VisualBookManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E669F232B530B002A168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E66A8232B530B002A168E /* VisualBookManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568E669A232B530B002A168E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568E6683232B5307002A168E /* VisualBookManager */;
+			targetProxy = 568E6699232B530B002A168E /* PBXContainerItemProxy */;
+		};
+		568E66A5232B530B002A168E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568E6683232B5307002A168E /* VisualBookManager */;
+			targetProxy = 568E66A4232B530B002A168E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568E668B232B5307002A168E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568E668C232B5307002A168E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568E6690232B530B002A168E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568E6691232B530B002A168E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568E66AA232B530B002A168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		568E66AB232B530B002A168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568E66AD232B530B002A168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568E66AE232B530B002A168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		568E66B0232B530B002A168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualBookManager.app/VisualBookManager";
+			};
+			name = Debug;
+		};
+		568E66B1232B530B002A168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualBookManager.app/VisualBookManager";
+			};
+			name = Release;
+		};
+		568E66B3232B530B002A168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisualBookManager;
+			};
+			name = Debug;
+		};
+		568E66B4232B530B002A168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualBookManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brightface.VisualBookManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisualBookManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568E667F232B5307002A168E /* Build configuration list for PBXProject "VisualBookManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E66AA232B530B002A168E /* Debug */,
+				568E66AB232B530B002A168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E66AC232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E66AD232B530B002A168E /* Debug */,
+				568E66AE232B530B002A168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E66AF232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E66B0232B530B002A168E /* Debug */,
+				568E66B1232B530B002A168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E66B2232B530B002A168E /* Build configuration list for PBXNativeTarget "VisualBookManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E66B3232B530B002A168E /* Debug */,
+				568E66B4232B530B002A168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568E667C232B5307002A168E /* Project object */;
+}
