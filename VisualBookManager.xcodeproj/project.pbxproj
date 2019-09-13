@@ -14,8 +14,8 @@
 		568E6692232B530B002A168E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E6690232B530B002A168E /* LaunchScreen.storyboard */; };
 		568E669D232B530B002A168E /* VisualBookManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E669C232B530B002A168E /* VisualBookManagerTests.swift */; };
 		568E66A8232B530B002A168E /* VisualBookManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66A7232B530B002A168E /* VisualBookManagerUITests.swift */; };
-		568E66B7232B607E002A168E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66B5232B607D002A168E /* Books.swift */; };
 		568E66BA232B8319002A168E /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66B9232B8319002A168E /* BookManager.swift */; };
+		568E66BC232BEC07002A168E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E66BB232BEC07002A168E /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		568E66A3232B530B002A168E /* VisualBookManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualBookManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E66A7232B530B002A168E /* VisualBookManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBookManagerUITests.swift; sourceTree = "<group>"; };
 		568E66A9232B530B002A168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		568E66B5232B607D002A168E /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Books.swift; path = ../../BookManager/BookManager/Books.swift; sourceTree = "<group>"; };
 		568E66B9232B8319002A168E /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		568E66BB232BEC07002A168E /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				568E6689232B5307002A168E /* ViewController.swift */,
 				568E668B232B5307002A168E /* Main.storyboard */,
 				568E66B9232B8319002A168E /* BookManager.swift */,
-				568E66B5232B607D002A168E /* Books.swift */,
+				568E66BB232BEC07002A168E /* Books.swift */,
 				568E668E232B530B002A168E /* Assets.xcassets */,
 				568E6690232B530B002A168E /* LaunchScreen.storyboard */,
 				568E6693232B530B002A168E /* Info.plist */,
@@ -262,10 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568E66B7232B607E002A168E /* Books.swift in Sources */,
 				568E668A232B5307002A168E /* ViewController.swift in Sources */,
 				568E66BA232B8319002A168E /* BookManager.swift in Sources */,
 				568E6688232B5307002A168E /* AppDelegate.swift in Sources */,
+				568E66BC232BEC07002A168E /* Books.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
